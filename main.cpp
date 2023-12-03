@@ -41,7 +41,7 @@ void work()
 	futureB2.wait();
 	std::future<void> futureC = std::async(std::launch::deferred, quick, "C");
 
-	futureC.get();
+	futureC.wait();
 	futureA3.wait();
 	futureA4.wait();
 
