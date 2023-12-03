@@ -5,6 +5,14 @@
 // “Повільні” обчислення : A1, A3
 // Залежності : B1(A1, A2), C(B1, B2)
 
+#include <iostream>
+#include <future>
+
+void work()
+{
+
+}
+
 int main()
 {
 	return 0;
